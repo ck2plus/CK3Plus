@@ -1,5 +1,5 @@
-name="Crusader Kings III Plus"
+name="CK3Plus"
 tags={
 	"Total Conversions"
 }
-path="mod/CK3Plus_mod"
+path="mod/CK3Plus"
