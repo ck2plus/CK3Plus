@@ -1,0 +1,28 @@
+﻿can_create_title_trigger = {
+	is_adult = yes
+	is_incapable = no
+	is_at_war = no
+
+	trigger_if = {
+		limit = {
+			title:prev = { is_titular = yes }
+		}
+
+		OR = {
+			tier < title:prev
+			title:prev = { is_title_created = yes }
+		}
+	}
+}
+
+can_create_duchy_trigger = {
+	can_create_title_trigger = yes
+}
+
+can_create_kingdom_trigger = {
+	can_create_title_trigger = yes
+}
+
+can_create_empire_trigger = {
+	can_create_title_trigger = yes
+}
