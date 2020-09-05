@@ -317,8 +317,8 @@
  sephardi:0 "Sephardi"
  sephardi_collective_noun:1 "Sephardis"
  #Latin group
- latin_group:0 "Latin"
- latin_group_collective_noun:0 "Latins"
+ latin_group:0 "Italic"
+ latin_group_collective_noun:0 "Italians"
  italian:0 "Italian"
  italian_collective_noun:1 "Italians"
  roman:0 "Roman"
