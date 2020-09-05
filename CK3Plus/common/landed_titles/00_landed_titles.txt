@@ -8903,7 +8903,17 @@ e_byzantium = {
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						turkish = cn_konstantiniyye
+						bulgarian = cn_b_constantinople_bulgarian
+						danish = cn_b_constantinople_danish
+						english = cn_b_constantinople_english
+						greek = cn_b_constantinople_greek
+						#icelandic = cn_b_constantinople_icelandic
+						norse = cn_b_constantinople_norse
+						norwegian = cn_b_constantinople_norwegian
+						roman = cn_b_constantinople_turkish
+						swedish = cn_b_constantinople_swedish
+						turkish = cn_b_constantinople_turkish
+						vlach = cn_b_constantinople_vlach
 					}
 				}
 			#	b_hagiasophia = {
@@ -8926,6 +8936,12 @@ e_byzantium = {
 				}
 				b_ainos = {
 					province = 3766
+					
+					cultural_names = {
+						greek = cn_b_ainos_greek
+						roman = cn_b_ainos_roman
+						turkish = cn_b_ainos_turkish
+					}
 					
 					color = { 185 10 80 }
 					color2 = { 255 255 255 }
