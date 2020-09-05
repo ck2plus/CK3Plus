@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  ### English (english) ###
  # Feudal
@@ -26,3 +26,11 @@ l_english:
  count_feudal_female_scottish:1 "Countess"
  count_feudal_scottish:1 "Earldom"
  
+ ### Serbian ###
+ # Feudal
+ baron_feudal_male_serbian:1 "Boyar"
+ baron_feudal_female_serbian:1 "Boyarina"
+ barony_feudal_serbian:1 "Boyardom"
+ duke_feudal_male_serbian:1 "Voivode"
+ duke_feudal_female_serbian:1 "Voivodina"
+ duchy_feudal_male_serbian:1 "Voivodeship"
