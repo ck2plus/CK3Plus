@@ -1,0 +1,10 @@
+﻿l_english:
+ #### Germany
+ ### Bavaria
+ ## Roman
+  cn_b_regensburg_latin:0 "Castra Regina"
+  cn_b_regensburg_latin_adj:0 "Castra Reginae"
+ 
+ ## Bavarian
+ cn_b_regensburg_bavarian:0 "Rengschburg"
+ cn_b_regensburg_bavarian_adj:0 "Rengschburger"
