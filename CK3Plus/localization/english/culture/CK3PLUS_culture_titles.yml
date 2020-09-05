@@ -1,0 +1,27 @@
+﻿l_english:
+
+ ### English (english) ###
+ # Feudal
+ baron_feudal_male_english:1 "Earl"
+ baron_feudal_female_english:1 "Countess"
+ barony_feudal_english:1 "Earldom"
+ 
+ ### Highland Scots (gaelic) ###
+ # Clan
+ count_clan_male_gaelic:1 "Mormaer"
+ count_clan_female_gaelic:1 "Ban-Mormaer" # Taken from Tudor Times about Isabella Countess of Atholl
+ county_clan_gaelic:1 "Mormaerdom"
+ # Feudal
+ count_feudal_male_gaelic:1 "Mormaer"
+ count_feudal_female_gaelic:1 "Ban-Mormaer"
+ county_feudal_gaelic:1 "Mormaerdom"
+ # Tribal
+ count_tribal_male_gaelic:1 "Mormaer"
+ count_tribal_female_gaelic:1 "Ban-Mormaer"
+ county_tribal_gaelic:1 "Mormaerdom"
+ 
+ ### Lowland Scots (scottish) ###
+ # Feudal
+ baron_feudal_male_scottish:1 "Earl"
+ baron_feudal_female_scottishh:1 "Countess"
+ barony_feudal_scottish:1 "Earldom"
