@@ -944,7 +944,22 @@
 	
 	}
 	
-	#longobard, move to a Germanic group
+	# Italian Lombards
+	lumbaart = {
+		
+	}
+	
+	# Liguria
+	ligurian = {
+		
+	}
+
+	# Veneto
+	venetian = {
+		
+	}
+	
+	# Longobard tribe, move to a Germanic group
 	lombard = {
 		color = { 0.8 0.8 0.5 }
 
