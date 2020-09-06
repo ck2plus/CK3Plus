@@ -10,8 +10,8 @@
 		{ name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
 	}
 
+	# possible union culture
 	italian = {
-	
 		color = { 0.95 0.95 0.75 }
 
 		cadet_dynasty_names = {
@@ -205,6 +205,7 @@
 		}
 	}
 	
+	# Ancient Roman
 	roman = {	
 		graphical_cultures = {
 			byzantine_clothing_gfx
@@ -297,8 +298,8 @@
 		}
 	}
 
+	# only here to catch any errors from vanilla
 	cisalpine = {
-	
 		color = { 0.95 0.95 0.55 }
 
 		cadet_dynasty_names = {
@@ -494,8 +495,8 @@
 		}
 	}
 
+	# Sardinian
 	sardinian = {
-		
 		color = { 0.9 0.9 0.3 }
 
 		cadet_dynasty_names = {
@@ -695,8 +696,13 @@
 		}
 	}
 
+	# Corsican
+	corsican = {
+	
+	}
+
+	# Sicilian island
 	sicilian = {
-		
 		color = { 0.65 0.65 0.2 }
 
 		cadet_dynasty_names = {
@@ -913,8 +919,33 @@
 		}
 	}
 
-	lombard = {
+	# Southern Italian
+	neapolitan = {
+	
+	}
+	
+	# Central Italian, Marchese/Roman/Umbrian
+	latin = {
+	
+	}
+	
+	# Tuscan
+	tuscan = {
+	
+	}
+	
+	# Emilia, Romagna
+	emilian = {
 		
+	}
+	
+	# Dalmatian
+	dalmatian = {
+	
+	}
+	
+	#longobard, move to a Germanic group
+	lombard = {
 		color = { 0.8 0.8 0.5 }
 
 		cadet_dynasty_names = {
