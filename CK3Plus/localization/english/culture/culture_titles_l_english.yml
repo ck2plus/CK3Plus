@@ -542,12 +542,6 @@
  count_feudal_female_norse:0 "Jarl"
  county_feudal_norse:0 "Jarldom"
 
-### English ###
-# Feudal / Tribal 
- count_feudal_male_english:0 "Earl"
- count_feudal_female_english:0 "Countess"
- county_feudal_english:0 "Earldom"
-
 ### Anglo-Saxon ###
 # Feudal / Tribal 
  baron_feudal_male_anglo_saxon:0 "Thane"
@@ -999,3 +993,40 @@
  king_feudal_female_hausan:0 "Sarkīa"
  emperor_feudal_male_hausan:0 "$emperor$"
  emperor_feudal_female_hausan:0 "$emperor_female$"
+
+ #### CK3Plus ####
+ ### English (english) ###
+ # Feudal
+ count_feudal_male_english:1 "Earl"
+ count_feudal_female_english:1 "Countess"
+ count_feudal_english:1 "Earldom"
+ 
+ ### Highland Scots (gaelic) ###
+ # Clan
+ count_clan_male_gaelic:1 "Mormaer"
+ count_clan_female_gaelic:1 "Ban-Mormaer" # Taken from Tudor Times about Isabella Countess of Atholl
+ county_clan_gaelic:1 "Mormaerdom"
+ # Feudal
+ count_feudal_male_gaelic:1 "Mormaer"
+ count_feudal_female_gaelic:1 "Ban-Mormaer"
+ county_feudal_gaelic:1 "Mormaerdom"
+ # Tribal
+ count_tribal_male_gaelic:1 "Mormaer"
+ count_tribal_female_gaelic:1 "Ban-Mormaer"
+ county_tribal_gaelic:1 "Mormaerdom"
+ 
+ ### Lowland Scots (scottish) ###
+ # Feudal
+ count_feudal_male_scottish:1 "Earl"
+ count_feudal_female_scottish:1 "Countess"
+ count_feudal_scottish:1 "Earldom"
+ 
+ ### Serbian ###
+ # Feudal
+ baron_feudal_male_serbian:1 "Boyar"
+ baron_feudal_female_serbian:1 "Boyarina"
+ barony_feudal_serbian:1 "Boyardom"
+ duke_feudal_male_serbian:1 "Voivode"
+ duke_feudal_female_serbian:1 "Voivodina"
+ duchy_feudal_male_serbian:1 "Voivodeship"
+ 
