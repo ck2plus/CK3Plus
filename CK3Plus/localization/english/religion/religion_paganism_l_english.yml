@@ -329,15 +329,15 @@ l_english:
  finno_ugric_water_god_name:0 "Ahto"
  finno_ugric_water_god_name_possessive:0 "Ahto's"
 
- finnish_pagan:0 "Suomenusko"
- finnish_pagan_adj:0 "Suomenusko"
- finnish_pagan_adherent:0 "Suomenusko"
- finnish_pagan_adherent_plural:0 "Suomenuskos"
+ finnish_pagan:0 "Finnicism" # Temporary until we inevitably breat it up
+ finnish_pagan_adj:0 "Finnicist"
+ finnish_pagan_adherent:0 "Finnicist"
+ finnish_pagan_adherent_plural:0 "Finnicists"
 
- finnish_pagan_old:0 "Old Suomenusko"
- finnish_pagan_old_adj:0 "Old Suomenusko"
- finnish_pagan_old_adherent:0 "Old Suomenusko"
- finnish_pagan_old_adherent_plural:0 "Old Suomenuskos"
+ finnish_pagan_old:0 "Old Finnicism"
+ finnish_pagan_old_adj:0 "Old Finnicist"
+ finnish_pagan_old_adherent:0 "Old Finnicist"
+ finnish_pagan_old_adherent_plural:0 "Old Finnicists"
 
 
  #Mande/Siguic
