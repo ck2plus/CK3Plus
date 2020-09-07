@@ -1,0 +1,25 @@
+﻿l_english:
+ ### Culture Groups
+ #italian_group:1 "Italic"/"Italo-Romance"
+ latin_group:1 "Italic"
+ #vlach_group:1 "Vlach"
+ 
+ ### Cultures
+ ## Italian
+ corsican:1 "Corsican"
+ dalmatian:1 "Dalmatian"
+ emilian:1 "Emilian"
+ latin: "Latin"
+ ligurian: "Ligurian"
+ lumbaart: "Lombard"
+ neapolitan:1 "Neapolitan"
+ tuscan:1 "Tuscan"
+ venetian:1 "Venetian"
+ 
+ ## Central Germanic
+ lombard:1 "Longobard"
+ 
+ ## Vlach
+ vlach:1 "Romanian"
+ vlach_collective_noun:1 "Romanians"
+ 
