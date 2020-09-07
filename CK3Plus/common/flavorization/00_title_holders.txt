@@ -95,7 +95,7 @@ title_prince = {
 	gender = male
 	special = holder
 	priority = 60
-	titles = { k_armenian_principality k_dacia k_moldavia k_switzerland }
+	titles = { k_armenian_principality k_switzerland }
 	top_liege = no
 }
 title_princess = {
@@ -103,7 +103,7 @@ title_princess = {
 	gender = female
 	special = holder
 	priority = 60
-	titles = { k_armenian_principality k_dacia k_moldavia k_switzerland }
+	titles = { k_armenian_principality k_switzerland }
 	top_liege = no
 }
 title_principality = {
@@ -5852,6 +5852,31 @@ faction_leader_female = {
 	priority = 1
 	special = holder
 }
+
+
+#############################################
+### CK3Plus
+## Romanian Principalities
+CK3Plus_principality_voivode = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { k_dacia k_moldavia }
+	tier = kingdom
+	top_liege = no
+}
+
+CK3Plus_principality_voivodina = {
+	type = character
+	gender = female
+	special = holder
+	priority = 60
+	titles = { k_dacia k_moldavia }
+	tier = kingdom
+	top_liege = no
+}
+
 
  #############################################
 #Fallback titles (should ideally never appear):
