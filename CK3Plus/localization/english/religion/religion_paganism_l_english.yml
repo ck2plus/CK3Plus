@@ -203,7 +203,7 @@ l_english:
  baltic_water_god_name:0 "Bangpūtys"
  baltic_water_god_name_possessive:0 "Bangpūtys'"
 
- baltic_pagan:0 "Vidilism"
+ baltic_pagan:0 "Vidilism" # I am honestly semi-okay with this but I just don't know the origin of the actual word
  baltic_pagan_adj:0 "Vidilist"
  baltic_pagan_adherent:0 "Vidilist"
  baltic_pagan_adherent_plural:0 "Vidilists"
