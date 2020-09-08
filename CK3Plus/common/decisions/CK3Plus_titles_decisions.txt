@@ -1,0 +1,37 @@
+ck3plus_unite_romania = {
+	picture = "gfx/interface/illustrations/decisions/ck3plus_unite_romania.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = ck3plus_unite_romania_desc
+	
+	is_shown = {
+		#has_culture_group = culture_group:vlach_group
+		has_culture = culture:vlach
+		NOT = {
+			title:k_romania = {  }
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_independent_ruler = yes
+		is_at_war = no
+		completely_controls = k_dacia
+		completely_controls = k_moldavia
+	}
+	effect = {
+		title:k_dacia = { any_in_de_jure_hierarchy = { set_de_jure_liege_title = k_romania } }
+		title:k_moldavia = { any_in_de_jure_hierarchy = { set_de_jure_liege_title = k_romania } }
+		destroy_title = title:k_dacia
+		destroy_title = title:k_moldavia
+	}
+	
+	cost = { gold = 300 }
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
