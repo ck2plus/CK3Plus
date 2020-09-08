@@ -108,7 +108,7 @@ title_princess = {
 }
 title_principality = {
 	type = title
-	titles = { k_armenian_principality k_dacia k_moldavia }
+	titles = { k_armenian_principality }
 	priority = 60
 	top_liege = no
 }
@@ -5864,9 +5864,8 @@ CK3Plus_principality_voivode = {
 	priority = 60
 	titles = { k_dacia k_moldavia }
 	tier = kingdom
-	top_liege = no
+	top_liege = yes
 }
-
 CK3Plus_principality_voivodina = {
 	type = character
 	gender = female
@@ -5874,9 +5873,15 @@ CK3Plus_principality_voivodina = {
 	priority = 60
 	titles = { k_dacia k_moldavia }
 	tier = kingdom
-	top_liege = no
+	top_liege = yes
 }
-
+CK3Plus_kingdom_principality = {
+	type = title
+	tier = kingdom
+	titles = { k_dacia k_moldavia }
+	priority = 60
+	top_liege = yes
+}
 
  #############################################
 #Fallback titles (should ideally never appear):
