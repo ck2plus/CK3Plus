@@ -998,7 +998,7 @@
  ### General ###
  CK3Plus_kingdom_principality:1 "Principality"
  CK3Plus_principality_voivode:1 "Voivode"
- CK3Plus_principality_voivodina:1 "Voivodina"
+ CK3Plus_principality_voivodina:1 "Voivodina" # Vojvodina also means 'Vovoideship' in most Slavic languages. English Voivode has no proper feminine form but Polish uses wojewodzina (-zina feminine suffix), upon which this is based.
  
  ### English (english) ###
  # Feudal
