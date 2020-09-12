@@ -15,16 +15,16 @@
 	#Marriage
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
-	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
-	doctrine = doctrine_homosexuality_crime
-	doctrine = doctrine_adultery_men_crime
-	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
 	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_crime
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_shunned
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_recruitment
@@ -33,8 +33,9 @@
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	traits = {
-		virtues = { brave wrathful vengeful }
-		sins = { craven deceitful forgiving }
+		# Tried to base this on the Nine Noble Virtues but some of the traits run together
+		virtues = { brave honest diligent just generous patient }
+		sins = { craven deceitful lazy arbitrary greedy impatient }
 	}
 
 	reserved_male_names = {
@@ -218,9 +219,5 @@
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_ancestor_worship
 		}
-		#norse_reformed = {
-		#	color = { 0.6 0.6 0.6 }
-		#	icon = germanic
-		#}
 	}
 }
