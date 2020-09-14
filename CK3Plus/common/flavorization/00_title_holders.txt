@@ -5862,7 +5862,7 @@ CK3Plus_principality_voivode = {
 	gender = male
 	special = holder
 	priority = 60
-	titles = { k_dacia k_moldavia } # Romanian voivodes used 'Domn(itor)' in Romanian, which literally means 'Lord/Ruler', but their official titles were 'Voievod' or 'Hospodar'.
+	titles = { k_dacia k_moldavia k_transylvania } # Romanian voivodes used 'Domn(itor)' in Romanian, which literally means 'Lord/Ruler', but their official titles were 'Voievod' or 'Hospodar'.
 	tier = kingdom
 	top_liege = yes
 }
@@ -5871,14 +5871,14 @@ CK3Plus_principality_voivodina = {
 	gender = female
 	special = holder
 	priority = 60
-	titles = { k_dacia k_moldavia }
+	titles = { k_dacia k_moldavia k_transylvania }
 	tier = kingdom
 	top_liege = yes
 }
 CK3Plus_kingdom_principality = {
 	type = title
 	tier = kingdom
-	titles = { k_dacia k_moldavia }
+	titles = { k_dacia k_moldavia k_transylvania }
 	priority = 60
 	top_liege = yes
 }

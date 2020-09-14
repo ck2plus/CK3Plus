@@ -1,4 +1,13 @@
+### vlach_group
 k_romania = {
 	color = { 247 195 0 }
 	color2 = { 255 255 255 }
+	
+	capital = c_campulung
+}
+k_transylvania = {
+	color1 = { 47 59 222 }
+	color2 = { 255 255 255 }
+	
+	capital = c_feher
 }
