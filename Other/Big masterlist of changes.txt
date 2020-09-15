@@ -1,16 +1,14 @@
+# FINISHED
+
 CULTURES = {
-	CULTURES CHANGED = {
-		Culture groups Goidelic and Brythonic merged into one large Celtic culture group
-		Latin culture group renamed to Italic
-		Italian (Latin) split into: Corsican (Corsica), Emilian (Emilia-Romagna), Latin (Central Italy), Ligurian (Liguria), Lombard (Northern Italy), Neapolitan (Southern Italy), Tuscan (Tuscany, Venetian (Veneto)
+	CULTURE_GROUPS = {
+		Goidelic and Brythonic merged into one large Celtic culture group
 	}
-	
-	CULTURES REMOVED = {
-		Cisalpine (Latin), unused but still exists in the game files as a safety measure
-	}
-	
-	CULTURES ADDED = {
-		Italy: Corsican (Corsica), Emilian (Emilia-Romagna), Latin (Central Italy), Ligurian (Liguria), Lombard (Northern Italy), Neapolitan (Southern Italy), Tuscan (Tuscany, Venetian (Veneto)
+}
+
+GUI = {
+	DECISIONS = {
+		"Decisions" renamed to "Minor Decisions"
 	}
 }
 
@@ -19,51 +17,68 @@ RELIGIONS = {
 		CHRISTIAN = {
 			Krstjani renamed to Bosnian Church (adherent: Good Bosnian)
 		}
-		
+
 		FINNO-UGRIC = {
 			Suomensko renamed to Finnicism (adherent: Finnicist)
 		}
-		
+
 		GERMANIC = {
 			Asatru renamed to Norse (adherent: Norse)
+			Virtues, Sins, and Doctrines changed to represent actual Old Norse religious values
 		}
-		
+
 		SLAVIC = {
 			Slovienska renamed to Slavism (adherent: Slavist)
 		}
-		
+	}
+}
+
+
+# IN PROGRESS (may be complete in another branch) (note: please try to keep these notes within the branch they are in-progress in going forward to avoid confusion)
+
+CULTURES = {
+	CULTURES CHANGED = {
+		Latin culture group renamed to Italic
+		Italian (Latin) split into: Corsican (Corsica), Emilian (Emilia-Romagna), Latin (Central Italy), Ligurian (Liguria), Lombard (Northern Italy), Neapolitan (Southern Italy), Tuscan (Tuscany, Venetian (Veneto)
 	}
 
+	CULTURES REMOVED = {
+		Cisalpine (Latin), unused but still exists in the game files as a safety measure
+	}
+
+	CULTURES ADDED = {
+		Italy: Corsican (Corsica), Emilian (Emilia-Romagna), Latin (Central Italy), Ligurian (Liguria), Lombard (Northern Italy), Neapolitan (Southern Italy), Tuscan (Tuscany, Venetian (Veneto)
+	}
 }
 
 TITLES = {
 	TITLES CHANGED = {
 		EMPIRE-TIER = {
-			
+
 		}
 		KINGDOM-TIER = {
 			Wallachia [k_dacia] and Moldavia [k_moldavia] are now refered to as a Principality and ruled by a Voivode or Voivodina
 		}
 		DUCHY-TIER = {
-			
+
 		}
 		COUNTY-TIER = {
-			
+
 		}
 	}
-	
+
 	TITLES ADDED = {
 		EMPIRE-TIER = {
-			
+
 		}
 		KINGDOM-TIER = {
 			Added 'Kingdom of Romania' [k_romania] as a titular title, with a decision to unify it from Wallachia [k_dacia] and Moldavia [k_moldavia] for Romanian culture rulers
 		}
 		DUCHY-TIER = {
-			
+
 		}
 		COUNTY-TIER = {
-			
+
 		}
 	}
 }
