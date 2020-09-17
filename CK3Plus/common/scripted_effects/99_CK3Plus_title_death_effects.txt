@@ -1,0 +1,31 @@
+﻿remove_dead_titles_effect = {
+	every_empire = {
+		limit = {
+			is_title_created = no
+			any_claimant = {
+				NOT = { exists = this }
+			}
+		}
+
+		remove_this_dead_title_effect = yes
+	}
+
+	# TODO later with game rule
+	every_kingdom = {
+		limit = {
+			is_title_created = no
+			any_claimant = {
+				NOT = { exists = this }
+			}
+		}
+	}
+}
+
+remove_this_dead_title_effect = {
+	any_sub_realm_title = {
+		limit = {
+			# only direct de jure vassals...need to figure out how to do that in CK3
+		}
+		set_de_jure_liege_title = 0
+	}
+}

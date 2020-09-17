@@ -1,0 +1,25 @@
+﻿# Called from code after history generation
+on_game_start = {
+	effect = {
+		remove_dead_titles_effect = yes
+	}
+}
+
+on_explicit_claim_lost = {
+	effect = {
+		# Remove de jure area belonging to kingdoms and empires when the title has no holder or claimants
+		scope:title = {
+			if = {
+				limit = {
+					tier >= king
+					is_title_created = no
+					any_claimant = {
+						NOT = { exists = this }
+					}
+				}
+
+				remove_this_dead_title_effect = yes
+			}
+		}
+	}
+}
